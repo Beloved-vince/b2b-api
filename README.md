@@ -2,7 +2,7 @@
 
 ## Overview
 
-This documentation provides information on how to interact with the APIs of the NestJS application. The application allows users to perform various actions such as user authentication, company creation, and image uploading.
+This documentation provides information on how to interact with the APIs of this NestJS application(AA B2B endpoint). The application allows two users to perform various actions such as user authentication, company creation, and image uploading.
 
 ## Authentication
 
