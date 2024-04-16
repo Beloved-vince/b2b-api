@@ -7,7 +7,7 @@ This documentation provides information on how to interact with the APIs of the 
 ## Authentication
 
 ### User Login
-- **Endpoint:** `POST /user/login`
+- **Endpoint:** `POST /user`
 - **Description:** Logs in a user with email and password.
 - **Request:**
   - `email` (string): User's email address.
@@ -19,7 +19,7 @@ This documentation provides information on how to interact with the APIs of the 
 ## User A Actions
 
 ### Create Company
-- **Endpoint:** `POST /company`
+- **Endpoint:** `POST /createCompany`
 - **Description:** Creates a new company.
 - **Request:**
   - `name` (string): Company name.
@@ -27,7 +27,7 @@ This documentation provides information on how to interact with the APIs of the 
   - `numberOfProducts` (number): Number of products in the company.
 - **Authentication:** Required (User A)
 - **Response:**
-  - `message` (string): Confirmation message.
+  - `message` (string): Company created successfully.
 
 ## User B Actions
 
